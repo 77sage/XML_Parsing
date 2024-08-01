@@ -2,13 +2,8 @@ const googleapis = require("googleapis");
 const fs = require("fs");
 
 // Set credentials to account to test.
-const credentials = {
-  client_id:
-    "732063052946-kqs6e67gsn8h6689826fdspg3bn57mvi.apps.googleusercontent.com",
-  client_secret: "B1HFNHkV13WytDLbkGn3OsKu",
-  refresh_token:
-    "1//04A_v7bTTCd_ACgYIARAAGAQSNwF-L9IrLuZZz8_QSLoC1ZVgoNvj3XAG4JvG8r8ZCFlrx1jVEByphqpJe3PMkR4Q8e6vz3KEFj0"
-};
+
+   
 // Path to a local video. Update for local content if running locally.
 const videoPath = "boston1.mov";
 
